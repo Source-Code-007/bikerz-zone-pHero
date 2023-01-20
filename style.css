@@ -1,0 +1,93 @@
+/* Common CSS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p,
+span {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cmn-clr-one {
+    color: #e76f51;
+}
+
+.cmn-btn-one {
+    color: #fff;
+    display: inline-block;
+    background-color: #e76f51;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.cmn-btn-one:hover {
+    color: #e76f51;
+    background-color: #fff;
+    border: 1px solid #e76f51;
+}
+
+.cmn-p-text {
+    font-size: 21px;
+    color: #777;
+}
+
+/* Let's start our custom CSS */
+/* Header */
+header {
+    background: #264653;
+}
+
+.myCarousel {
+    height: 90vh;
+}
+
+/* featured bikes section */
+.featured-bikes-intro p {
+    position: relative;
+}
+
+.featured-bikes-intro p::after {
+    content: '';
+    background-color: rgb(223, 71, 89);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Latest news bikes */
+.latest-news-intro {
+    margin-bottom: 80px;
+
+}
+
+.latest-news-section .card .card-title {
+    font-size: 30px;
+}
+
+.latest-news-section .card .card-text {
+    line-height: 2rem;
+}
+
+/* Happt client */
+.happy-client-intro {
+    margin-bottom: 80px;
+}
+
+.accordion-item {
+    margin: 30px 0;
+}
